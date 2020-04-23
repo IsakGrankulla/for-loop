@@ -1,0 +1,128 @@
+/* font-family: monospace; */
+
+body {
+    background-color: rgb(51, 49, 49);
+}
+
+input {
+    font-size: 40px;
+    border: 3px solid lightblue;
+    border-left: transparent;
+    border-right: transparent;
+    border-top: transparent;
+    text-align: center; 
+    width: 100px;
+    height: 30px;
+    background-color: transparent;
+    color: wheat;
+    font-family: monospace;
+}
+
+#text-content {
+    font-size: 30px;
+    color: white;
+    font-family: monospace;
+}
+
+button {
+    font-size: 40px;
+    background-color: transparent;
+    border: 1px solid wheat;
+    font-family: monospace;
+    color: wheat;
+}
+
+.button-div {
+    text-align: center;
+}
+
+.if-div {
+    text-align: center; 
+}
+ 
+ .second-p {
+     font-size: 30px;
+     margin-left: 10%;
+     color: lightblue;
+     margin-top: -20px;
+     font-family: monospace;
+ }
+ 
+ .first-a {
+     color: rgb(165, 78, 78);
+ }
+ 
+ .second-a {
+     color: wheat;
+     font-family: monospace;
+ }
+ 
+ .third-a {
+     color: lightblue;
+     font-family: monospace;
+ }
+ 
+ .last-a {
+     color: rgb(224, 222, 224);
+     font-family: monospace;
+ }
+ 
+ .last-p {
+     color: rgb(224, 222, 224);
+     font-size: 30px;
+     margin-right: 19%;
+     margin-top: -1%;
+     font-family: monospace;
+ }
+ 
+ .if-a {
+     color: lightblue;
+     font-family: monospace;
+ }
+ 
+ .var-a {
+    color: lightblue;
+}
+
+.var-div {
+    text-align: center;
+}
+
+.first-p {
+    font-size: 30px;
+    display: inline-block;
+    color: rgb(187, 135, 194);
+    font-family: monospace;
+    margin-left: 10%;
+}
+
+.var-p {
+    font-size: 30px;
+    display: inline-block;
+    color: rgb(153, 89, 161);
+    font-family: monospace;
+}
+
+@media screen and (max-width: 568px) {
+    * {
+        font-size: 20px;
+    }
+    .first-p {
+        font-size: 20px;
+    }
+    .third-p {
+        font-size: 20px;
+    }
+    .last-p {
+        font-size: 20px;
+    }
+    button {
+        font-size: 20px;
+    }
+    .var-p {
+        font-size: 20px;
+    }
+    .second-p {
+        font-size: 20px;
+    }
+}
