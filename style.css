@@ -103,6 +103,10 @@ button {
     font-family: monospace;
 }
 
+.white-end {
+    color: white;
+}
+
 @media screen and (max-width: 568px) {
     * {
         font-size: 20px;

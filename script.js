@@ -9,9 +9,11 @@ form.addEventListener('submit', onButtonClicked);
 function onButtonClicked(event) {
     let number = parseInt(numberinput.value);
     event.preventDefault();
-
+    p.innerHTML = "";
 for (let i = 0; i < numberinput.value; i++) {
+    
     p.innerHTML += "Test" + "<br>";
+    
     
 }
 }
